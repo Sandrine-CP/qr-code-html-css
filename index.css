@@ -10,6 +10,7 @@
   --FontFamily: "Outfit";
 }
 
+
 body {
   background-color: var(--LightGrey);
 }
@@ -29,16 +30,14 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 
-  .qrCodeContainer {
-    img {
+  .qrCodeContainer img {
       height: 288px;
       width: 288px;
       border-radius: 10px;
-    }
   }
 }
 
-h2 {
+h1, h2 {
   font-family: var(--FontFamily);
   font-weight: 700;
 }
@@ -47,7 +46,9 @@ p {
   font-family: var(--FontFamily);
   color: var(--Grey);
   font-weight: 400;
+  font-size: 15px;
 }
+
 .textContainer {
   width: 288px;
   height: 129px;
